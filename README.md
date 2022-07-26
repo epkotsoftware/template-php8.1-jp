@@ -32,9 +32,19 @@ Dockerを使って環境を構築します。
 
 ![Docker](./docs/images/docker.svg)
 
+### 構築する環境
+
+- Webコンテナ
+  - [php:8.1.8-apache](https://hub.docker.com/_/php)
+  - [composer:2.3.10](https://hub.docker.com/_/composer)
+- DBコンテナ
+  - [mysql:8.0.29](https://hub.docker.com/_/mysql)
+- phpMyAdminコンテナ
+  - [phpmyadmin:5.2.0](https://hub.docker.com/_/phpmyadmin)
+
 ### .env
 
-[./env](./.env)ファイルの各名称・ポート設定をしてください。  
+[.env](./.env)ファイルの各名称・ポート設定をしてください。  
 基本的にはそのまま使用可能ですが、IPとポートが重複するとコンテナが起動しないので  
 自身の環境に合わせて設定を変えてください。
 
