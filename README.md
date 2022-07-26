@@ -10,14 +10,24 @@ PHP8.1 のGitHubテンプレートリポジトリです。
 - VSCode (任意)
 - SQLクライアント (任意 「A5:SQL Mk-2」、「DBeaver」等)
 
-## リポジトリ作成
+## テンプレート導入
 
-テンプレートから自身のリポジトリを作成してください。
+導入は、ダウンロードするか、テンプレートからリポジトリを作成してください。
+
+### ダウンロードする場合
+
+「Code」から「Download ZIP」を選択するとダウンロードが可能です。
+
+### リポジトリを作成する場合
+
+#### リポジトリ作成
+
+「Use this template」ボタンで、テンプレートから自身のリポジトリを作成してください。
 
 - テンプレートからリポジトリを作成する
   - <https://docs.github.com/ja/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template>
 
-## clone
+#### clone
 
 自身で作成したリポジトリをcloneしてください。
 
